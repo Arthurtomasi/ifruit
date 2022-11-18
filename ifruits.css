@@ -1,0 +1,27 @@
+h1{
+
+    display: flex;
+align-items: center;   
+justify-content: center; 
+}
+
+
+
+.coluna-urls{
+    background-color: black;
+    width: 100%;
+    float: left;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul{
+    padding-left: 70px;
+   list-style: none; 
+   display: flex;
+   justify-content: space-around;
+    font-family: sans-serif;
+}
+ul img{
+    padding-top: 35px;
+    padding-right:50px;
+}
