@@ -55,7 +55,7 @@ body{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     ul{
-        padding-left: 70px;
+       
        list-style: none; 
        display: flex;
        justify-content: space-around;

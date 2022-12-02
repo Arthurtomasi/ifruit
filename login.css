@@ -60,12 +60,15 @@ label {
 
 }
 
+#login-container input{
+    margin-bottom: 20px;
+}
 input {
 
     border: 2px solid #1814149d;
     padding: 10px; 
     font-size: 1rem;
-    margin-bottom: 20px;
+ 
 
 }
 
@@ -88,7 +91,7 @@ input[type="submit"] {
     border-radius: 20px;
     margin-top: 30px;
     color: white;
-    background-color: #08558b;
+    background-color: #0071e3;
     cursor: pointer;
 }
 

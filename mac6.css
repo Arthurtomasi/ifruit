@@ -1,0 +1,109 @@
+a {
+
+    text-decoration: black;
+}
+
+.content {
+    height: calc(100vh - 80px);
+    width: 100%;
+    padding: 0 5%;
+
+}
+
+.titulo {
+    text-align: center;
+    padding-top: 90px;
+}
+
+.textoCarrinho {
+    margin-top: 70px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(1, 217, 255);
+    width: fit-content;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+
+.left-side h1 {
+    font-size: 50px;
+    color: black;
+
+}
+
+.left-side p {
+    color: black;
+
+}
+
+.left-side {
+    display: inline-grid;
+    column-gap: 250px;
+    grid-template-columns: auto auto auto;
+}
+
+span {
+    padding-left: 90px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin-top: -354px;
+}
+
+
+.textoCompra {
+    margin-top: 20px;
+    margin-left : 77px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(1, 217, 255);
+    width: fit-content;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.precoCompra{
+    padding-top: 12px;
+}
+
+.foto5 {
+    padding-left: 200px;
+
+}
+
+
+.informacoesProduto{
+    padding-top: 48px;
+    
+}
+
+
+.especificacoesDoProduto{
+    gap: 120px;
+    display: flex;
+    margin-left: 50PX;
+    padding-top: 48px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.imagemmac{
+   position: relative;
+   margin-top: 100px;
+}
+p{
+    display: flex;
+ 
+    padding-top: 48px;
+    align-items: center;
+    flex-direction: row;
+    
+}

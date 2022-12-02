@@ -1,10 +1,142 @@
 *{
 font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
-padding: 0;
+
 margin: 0;
 box-sizing: border-box;
 }
+.imgbi{
+    margin-left: 30px
+}
+header a{
+    color: #FFF;
+}
+.termos{
+max-width: 1480px;
+margin-left: auto;
+margin-right: auto;
+padding: 0 var(--mobile-container-gutter);
+max-width: 800px;
+}
+.classeformulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:40px ;
+    
+    }
+    .caixagrande2
+{
+padding-top: 15px;
+gap: 50px;
 
+
+}
+.botaoLogin{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    background-color: #08558b;
+    cursor: pointer;
+}
+.botaoenviar{
+    margin-top: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    font-size: 17px;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: none;
+    background: #0071e3;
+    color: rgb(255, 255, 255);
+    
+}
+
+
+.conteinerformulario{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    text-align: center;
+    font-size: 17px;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: none;
+    background: #ffffff00;
+    color: rgb(0, 0, 0);
+
+    
+}
+
+
+
+input {
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 17px;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 2px solid rgb(186, 186, 186);
+    background: #ffffff42;
+    color: rgb(0, 0, 0);}
+
+
+   
+
+ 
+ 
+form{
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+
+}
+
+ .imagemdentro{
+padding-left: 100%;
+
+ }
+
+ select{
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 17px;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding: 8px 24px;
+    border-radius: 20px;
+    border: 2px solid rgb(186, 186, 186);
+    background: #ffffff42;
+    color: rgb(0, 0, 0);}
+
+h3{
+
+
+text-align: center;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+
+.classeinside{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    }
+    
 
 header{
 width: 100%;
@@ -83,12 +215,12 @@ footer{
     text-decoration: none 
     }
 
-    a:link{
+    .usuariologin{
         text-decoration: none;
-        color: white;
+        color: rgb(255, 255, 255);
     }
     
-    a:visited{
+    .usuariologin{
         text-decoration: none;
-        color: white;
+        color: rgb(255, 255, 255);
     }
